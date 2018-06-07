@@ -1,5 +1,6 @@
 # DHSI2018 Links
 
+1. ["A Plain Text Workflow for Academic Writing with Atom"](http://u.arizona.edu/~selisker/post/workflow/)
 1. ["Useful Javascript Array and Object Methods"](https://codeburst.io/useful-javascript-array-and-object-methods-6c7971d93230)
 1. Immutable Data Libraries
 	  * ["Normalizr"](https://github.com/paularmstrong/normalizr)
