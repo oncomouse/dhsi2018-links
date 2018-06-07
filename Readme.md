@@ -9,3 +9,4 @@
 1. What's Up in JavaScript?
 	* [DailyJS](https://medium.com/dailyjs) on Medium
 	* [JavaScript Daily](https://twitter.com/JavaScriptDaily) on Twitter
+1. ["React Controlled Components (Forms)"](https://reactjs.org/docs/forms.html)
