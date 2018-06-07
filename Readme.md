@@ -6,3 +6,6 @@
 	  * ["Normalizr"](https://github.com/paularmstrong/normalizr)
 	  * ["Immutable.js"](https://facebook.github.io/immutable-js/)
 1. ["List of Library APIs"](https://librarieshacked.org/apis)
+1. What's Up in JavaScript?
+	* [DailyJS](https://medium.com/dailyjs) on Medium
+	* [JavaScript Daily](https://twitter.com/JavaScriptDaily) on Twitter
