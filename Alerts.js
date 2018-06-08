@@ -2,20 +2,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import alertify from 'alertify.js';
-//import {clearFeedback} from 'actions/feedbackActions';
 
+/*
+	state.Feedback -> [
+		{
+		  message: String,
+			error: Boolean,
+			timestamp: Date
+		}
+		...
+	]
+*/
 const mapStateToProps = (state) => ({
 	messages: state.Feedback
 })
 
-const mapDispatchToProps = (dispatch) => ({
-	//clearFeedback: (message, timestamp) => { dispatch(clearFeedback(message, timestamp)) }
-})
+const mapDispatchToProps = (dispatch) => ({})
 
 class Feedback extends React.Component {
 	static propTypes = {
-		messages: PropTypes.array.isRequired//,
-		//clearFeedback: React.PropTypes.func.isRequired
+		messages: PropTypes.array.isRequired
 	}
 	constructor(props) {
 		super(props);
