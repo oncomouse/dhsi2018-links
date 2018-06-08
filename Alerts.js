@@ -24,11 +24,13 @@ class Feedback extends React.Component {
 		}
 	}
 	static getDerivedStateFromProps(props, state) {
-		props.messages.filter((x) => x.timestamp > state.lastMessage).forEach((message) => {
-			message.error ? 
-				alertify.closeLogOnClick(true).error(message.message) :
-				alertify.closeLogOnClick(true).log(message.message);
-		})
+		props.messages
+			.filter((x) => x.timestamp > state.lastMessage)
+			.forEach((message) => {
+				message.error ?
+					alertify.closeLogOnClick(true).error(message.message) :
+					alertify.closeLogOnClick(true).log(message.message);
+			});
 		return {
 			lastMessage: Date.now()
 		}
@@ -40,7 +42,7 @@ class Feedback extends React.Component {
 		return false;
 	}
 	render() {
-		return (<div/>)
+		return (<div/>);
 	}
 }
 
