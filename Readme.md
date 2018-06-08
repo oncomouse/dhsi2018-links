@@ -10,3 +10,9 @@
 	* [DailyJS](https://medium.com/dailyjs) on Medium
 	* [JavaScript Daily](https://twitter.com/JavaScriptDaily) on Twitter
 1. ["React Controlled Components (Forms)"](https://reactjs.org/docs/forms.html)
+1. ["MicroJS: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!"](http://microjs.com/#)
+1. ["React-Leaflet"](https://react-leaflet.js.org/) – Maps!
+1. ["React-Router"](https://github.com/ReactTraining/react-router) – Multiple URL-derived sub-pages in the browser!
+1. ["Filterable List of FOSS React Component Libraries"](https://devarchy.com/react)
+    * And the GitHub repo: [https://github.com/brillout/awesome-react-components](https://github.com/brillout/awesome-react-components)
+1. [nanoJS](https://vladocar.github.io/nanoJS/) – A tiny DOM abstraction library; like jQuery but smaller
