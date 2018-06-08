@@ -21,7 +21,11 @@ const mapDispatchToProps = (dispatch) => ({})
 
 class Feedback extends React.Component {
 	static propTypes = {
-		messages: PropTypes.array.isRequired
+		messages: PropTypes.arrayOf(PropType.shape({
+			timestamp: PropTypes.instanceOf(Date),
+			message: PropTypes.string,
+			error: PropTypes.bool
+		})).isRequired
 	}
 	constructor(props) {
 		super(props);
@@ -31,7 +35,7 @@ class Feedback extends React.Component {
 	}
 	static getDerivedStateFromProps(props, state) {
 		props.messages
-			.filter((x) => x.timestamp > state.lastMessage)
+			.filter(message => message.timestamp > state.lastMessage)
 			.forEach((message) => {
 				message.error ?
 					alertify.closeLogOnClick(true).error(message.message) :
