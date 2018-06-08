@@ -19,3 +19,4 @@
 1. ["Filterable List of FOSS React Component Libraries"](https://devarchy.com/react)
     * And the GitHub repo: [https://github.com/brillout/awesome-react-components](https://github.com/brillout/awesome-react-components)
 1. [nanoJS](https://vladocar.github.io/nanoJS/) – A tiny DOM abstraction library; like jQuery but smaller
+1. [Cypress](https://www.cypress.io/) – New testing utility
